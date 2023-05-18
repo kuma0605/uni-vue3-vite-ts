@@ -13,6 +13,10 @@
 ### 尺寸单位
     可使用rpx，与小程序相同，以750rpx为屏幕基准宽度。
 
+
+
+## 配置
+
 ### 安装完pinia，引用报错
     "hasInjectionContext" is not exported by "node_modules/vue-demi/lib/index.mjs", imported by "node_modules/pinia/dist/pinia.mjs".
     解决方案：
