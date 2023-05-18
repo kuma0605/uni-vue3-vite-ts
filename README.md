@@ -21,6 +21,9 @@
 ### 微信小程序真机调试空白，预览正常显示
     打开手机端调试
 
+### uniapp/原生 tabbar 不支持图标大小、文字大小自定义
+    自定义tabbar components/customBar
+
 ## 配置问题汇总
 
 ### 安装完 pinia，引用报错
