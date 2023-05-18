@@ -6,6 +6,7 @@
     [✅]pinia
     [✅]sass
     [✅]unocss
+    [✅]eslint
     [❌]请求封装
 
 ## 开发问题汇总
