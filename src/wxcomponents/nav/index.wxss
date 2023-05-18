@@ -1,4 +1,4 @@
-/* components/nav/nav.wxss */
+
 .nav_wrapper{
     width:750rpx;
 }
