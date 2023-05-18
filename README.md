@@ -1,4 +1,5 @@
 # uni-app vue3 vite ts
+小程序种子项目
 
 ## 集成
     [✅]自定义导航栏 wxcomponents/nav
