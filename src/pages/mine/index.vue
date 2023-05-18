@@ -1,6 +1,6 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png" @tap="goHome"/>
+    <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
@@ -9,15 +9,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-const title = ref('Hello')
-
-function goHome(){
-  uni.switchTab(
-    {
-      url:"/pages/home/home"
-    }
-  )
-}
+const title = ref('我的')
 </script>
 
 <style>
