@@ -14,7 +14,7 @@
   import { ref } from 'vue'
   const title = ref('ano')
 
-  function goPage(page: String){
+  function goPage(page: string){
     uni.navigateTo({
       url:`/pages/${page}/${page}`,
     });
