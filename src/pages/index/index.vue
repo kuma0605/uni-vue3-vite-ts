@@ -3,8 +3,7 @@
     <custom-nav  :hide-back="true">
       自定义导航栏
     </custom-nav>
-    <!-- <view class="status_bar">
-    </view> -->
+    
     <image class="logo" src="/static/logo.png" @tap="goHome"/>
     <view class="text-area">
       <text class="title">{{ title }}</text>
@@ -32,11 +31,6 @@ function goHome(){
   align-items: center;
   justify-content: center;
 }
-
-.status_bar {
-        height: var(--status-bar-height);
-        width: 100%;
-    }
 
 .logo {
   height: 200rpx;
