@@ -1,8 +1,6 @@
 <template>
   <view class="content">
-    <custom-nav :hide-back="true">
-      自定义导航栏
-    </custom-nav>
+    <custom-nav :hide-back="true"> 自定义导航栏 </custom-nav>
 
     <image class="logo" src="/static/logo.png" @tap="goHome" />
     <view class="text-area">
@@ -12,15 +10,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
+import { ref } from "vue";
+const title = ref("Hello");
 
 function goHome() {
-  uni.switchTab(
-    {
-      url: "/pages/home/home"
-    }
-  )
+  /* uni.switchTab({
+    url: "/pages/home/home"
+  }); */
+  uni.navigateTo({
+    url: "/pages/home/home"
+  });
 }
 </script>
 <style lang="scss">
@@ -48,7 +47,5 @@ function goHome() {
       color: #8f8f94;
     }
   }
-
-
 }
 </style>

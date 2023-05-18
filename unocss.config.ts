@@ -1,16 +1,16 @@
-import presetWeapp from 'unocss-preset-weapp'
-import { transformerAttributify, transformerClass } from 'unocss-preset-weapp/transformer'
+import presetWeapp from "unocss-preset-weapp";
+import { transformerAttributify, transformerClass } from "unocss-preset-weapp/transformer";
 
 export default {
   presets: [
     // https://github.com/MellowCo/unocss-preset-weapp
-    presetWeapp(),
+    presetWeapp()
   ],
   shortcuts: [
     {
-      'border-base': 'border border-gray-500_10',
-      'center': 'flex justify-center items-center',
-    },
+      "border-base": "border border-gray-500_10",
+      center: "flex justify-center items-center"
+    }
   ],
 
   transformers: [
@@ -18,6 +18,6 @@ export default {
     transformerAttributify(),
 
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerClass
-    transformerClass(),
+    transformerClass()
   ]
-}
+};

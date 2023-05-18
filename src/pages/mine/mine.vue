@@ -1,24 +1,18 @@
 <template>
   <view class="content">
-    <custom-nav :hide-back="true"> 首页 </custom-nav>
-    <image class="logo" src="/static/logo.png" @tap="goPage('ano')" />
+    <custom-nav :hide-back="true"> 我的 </custom-nav>
+    <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
-    <custom-bar chosen="home" mode="pages" :unreadcount="0"></custom-bar>
+    <custom-bar chosen="mine" mode="pages" :unreadcount="99"></custom-bar>
   </view>
 </template>
 
 <script setup lang="ts">
 import CustomBar from '@/components/customBar/index.vue'
 import { ref } from "vue";
-const title = ref("home");
-
-function goPage(page: string) {
-  uni.navigateTo({
-    url: `/pages/${page}/${page}`
-  });
-}
+const title = ref("我的");
 </script>
 
 <style>
