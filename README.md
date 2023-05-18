@@ -1,5 +1,10 @@
 # uni-app vue3 vite ts
 
+## 集成
+    [✅]自定义导航栏 wxcomponents/nav
+    [✅]pinia
+    [✖️]请求封装
+
 ## 开发问题汇总
 
 ### 安装完pinia，引用报错
