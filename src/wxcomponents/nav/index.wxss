@@ -13,6 +13,7 @@
     justify-content:center;
     box-sizing:border-box;
     position:relative;
+    font-size:28rpx;
 }
 
 .arrow_outer {

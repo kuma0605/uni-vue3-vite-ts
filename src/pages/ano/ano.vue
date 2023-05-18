@@ -1,9 +1,12 @@
 <template>
     <view class="content">
-      <image class="logo" src="/static/logo.png" @tap="goPage('her')"/>
-      <view class="text-area">
-        <text class="title">{{ title }}</text>
-      </view>
+        <custom-nav>
+         其他
+        </custom-nav>
+        <image class="logo" src="/static/logo.png" @tap="goPage('her')"/>
+        <view class="text-area">
+            <text class="title">{{ title }}</text>
+        </view>
     </view>
   </template>
   

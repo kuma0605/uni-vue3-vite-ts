@@ -1,5 +1,8 @@
 <template>
     <view class="content">
+      <custom-nav  :hide-back="true">
+        首页
+      </custom-nav>
       <image class="logo" src="/static/logo.png" @tap="goPage('ano')"/>
       <view class="text-area">
         <text class="title">{{ title }}</text>

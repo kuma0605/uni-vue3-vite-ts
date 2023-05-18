@@ -1,7 +1,7 @@
 <template>
   <view class="content">
     <custom-nav  :hide-back="true">
-      <text class="header_txt">自定义导航栏</text>
+      自定义导航栏
     </custom-nav>
     <!-- <view class="status_bar">
     </view> -->

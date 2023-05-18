@@ -1,5 +1,8 @@
 <template>
   <view class="content">
+    <custom-nav  :hide-back="true">
+        我的
+    </custom-nav>
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
