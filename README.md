@@ -15,7 +15,7 @@
 
 
 
-## 配置
+## 配置问题汇总
 
 ### 安装完pinia，引用报错
     "hasInjectionContext" is not exported by "node_modules/vue-demi/lib/index.mjs", imported by "node_modules/pinia/dist/pinia.mjs".
