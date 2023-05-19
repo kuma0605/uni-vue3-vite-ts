@@ -95,13 +95,13 @@ export default {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-size: 20rpx;
+            font-size: 24rpx;
             color: #999999;
             position: relative;
 
             image {
-                width: 44rpx;
-                height: 44rpx;
+                width: 56rpx;
+                height: 56rpx;
                 margin-bottom: 10rpx;
                 position: relative;
                 z-index: 1;
