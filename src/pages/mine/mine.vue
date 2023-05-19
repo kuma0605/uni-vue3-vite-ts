@@ -1,6 +1,6 @@
 <template>
   <view class="content">
-    <custom-nav :hide-back="true"> 我的 </custom-nav>
+    <custom-nav :hide-back="true"> 导航：我的 </custom-nav>
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import CustomBar from '@/components/customBar/index.vue'
+import CustomBar from "@/components/customBar/index.vue";
 import { ref } from "vue";
 const title = ref("我的");
 </script>

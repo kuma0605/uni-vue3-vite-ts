@@ -11,7 +11,7 @@
     [✅]unocss
     [✅]eslint
     [✅]prettier
-    [❌]请求封装
+    [✅]请求封装
 
 ## 开发问题汇总
 
@@ -24,6 +24,9 @@
 
 ### uniapp/原生 tabbar 不支持图标大小、文字大小自定义
     自定义tabbar components/customBar
+
+### An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+    引入ts文件，不用带.ts
 
 ## 配置问题汇总
 

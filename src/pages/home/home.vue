@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import CustomBar from '@/components/customBar/index.vue'
+import CustomBar from "@/components/customBar/index.vue";
 import { ref } from "vue";
 const title = ref("home");
 
