@@ -18,8 +18,9 @@
 ### 尺寸单位
     可使用rpx，与小程序相同，以750rpx为屏幕基准宽度。
 
-### 微信小程序真机调试空白，预览正常显示
-    或者yarn build:mp-weixin生成正式版，打开正式版dist，可真机调试。
+### 微信小程序真机调试空白
+    1.预览可正常显示
+    2.或者yarn build:mp-weixin生成正式版，打开正式版dist，可真机调试。
 
 ### uniapp/原生 tabbar 不支持图标大小、文字大小自定义
     自定义tabbar components/customBar
